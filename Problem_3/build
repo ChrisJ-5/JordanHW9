@@ -1,0 +1,4 @@
+#!/bin/bash
+
+g++ myApp.cpp PhoneBook.cpp Record.cpp -o myApp
+

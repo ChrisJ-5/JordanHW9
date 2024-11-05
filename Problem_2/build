@@ -1,0 +1,8 @@
+#!/bin/bash
+
+config-pin p8.16 gpio_input
+config-pin p8.16 gpio_pu
+
+config-pin p9.12 gpio
+
+g++ myGpioApp.cpp myGpio.cpp -o myGpioApp -pthread
